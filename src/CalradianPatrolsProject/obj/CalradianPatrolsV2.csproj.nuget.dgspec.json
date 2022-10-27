@@ -1,43 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Mount & Blade II Bannerlord\\Modules\\Calradian-Patrols-V2\\src\\CalradianPatrolsProject\\CalradianPatrolsV2.csproj": {}
+    "C:\\dev\\bannerlord\\patrols\\src\\CalradianPatrolsProject\\CalradianPatrolsV2.csproj": {}
   },
   "projects": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Mount & Blade II Bannerlord\\Modules\\Calradian-Patrols-V2\\src\\CalradianPatrolsProject\\CalradianPatrolsV2.csproj": {
+    "C:\\dev\\bannerlord\\patrols\\src\\CalradianPatrolsProject\\CalradianPatrolsV2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Mount & Blade II Bannerlord\\Modules\\Calradian-Patrols-V2\\src\\CalradianPatrolsProject\\CalradianPatrolsV2.csproj",
+        "projectUniqueName": "C:\\dev\\bannerlord\\patrols\\src\\CalradianPatrolsProject\\CalradianPatrolsV2.csproj",
         "projectName": "CalradianPatrolsV2",
-        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Mount & Blade II Bannerlord\\Modules\\Calradian-Patrols-V2\\src\\CalradianPatrolsProject\\CalradianPatrolsV2.csproj",
-        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Mount & Blade II Bannerlord\\Modules\\Calradian-Patrols-V2\\src\\CalradianPatrolsProject\\obj\\",
+        "projectPath": "C:\\dev\\bannerlord\\patrols\\src\\CalradianPatrolsProject\\CalradianPatrolsV2.csproj",
+        "packagesPath": "C:\\Users\\collinh\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\bannerlord\\patrols\\src\\CalradianPatrolsProject\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\collinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net472"
+          "net48"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net472": {
+          "net48": {
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "net472": {
+        "net48": {
           "dependencies": {
             "Bannerlord.MCM": {
               "include": "Compile",
               "target": "Package",
-              "version": "[4.3.16, )"
+              "version": "[4.7.11, )"
             }
           }
         }
